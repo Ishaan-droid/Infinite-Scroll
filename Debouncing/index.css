@@ -1,0 +1,29 @@
+header h1 {
+  text-align: center;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+}
+
+.search label,
+.search input {
+  margin: 1rem;
+  font-size: 1.5rem;
+}
+
+.comments {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.comment {
+  border: 2px solid rgba(181, 176, 176, 0.4);
+  width: 70vw;
+  height: auto;
+  padding: 0.7rem;
+  margin-top: 1rem;
+}
